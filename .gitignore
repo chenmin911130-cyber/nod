@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+
+# ---- Node / Electron ----
+node_modules/
+dist-electron/
+desktop/dist/
+desktop/release/
+desktop/node_modules/
+
+# ---- 构建产物 / 发布物（二进制，不进库）----
+release/
+*.exe
+*.zip
+*.blockmap
+
+# ---- 密钥与个人数据（绝不提交）----
+.env
+secrets.json
+secrets.client.json
+# 开发机 config.json 含开发者本人简历，不作为开源模板提交（模板用 config.client.json）
+config.json
+window_state.json
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+*.log
+.hermes-tmp.*

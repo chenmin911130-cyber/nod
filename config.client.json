@@ -1,0 +1,70 @@
+{
+  "profile": {
+    "name": "",
+    "target_role": "Software Engineer",
+    "company": "",
+    "resume_summary": "",
+    "jd": "",
+    "style": "简洁结构化：先给结论，再 2-3 点展开；行为题用 STAR 结构；语言口语化、可直接照着念；中文提问用中文答，英文提问用英文答。"
+  },
+  "llm": {
+    "model": "openai/gpt-5.4-mini",
+    "max_tokens": 300,
+    "temperature": 0.5,
+    "provider": "openrouter"
+  },
+  "stt": {
+    "model": "assemblyai",
+    "language": "en",
+    "ignore_mic_in_auto": false,
+    "vocabulary": [
+      "OOP",
+      "React",
+      "TypeScript",
+      "SQL",
+      "Kubernetes",
+      "AssemblyAI"
+    ],
+    "debug": false
+  },
+  "audio": {
+    "device": "auto",
+    "samplerate": 16000,
+    "source": "system"
+  },
+  "hotkey": {
+    "manual": "f2",
+    "continuous": "f3",
+    "clear": "f4"
+  },
+  "ui": {
+    "opacity": 83
+  },
+  "models": [
+    {
+      "label": "DeepSeek Chat (OpenRouter) · Default",
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "label": "GPT-5.4 mini (OpenRouter)",
+      "provider": "openrouter",
+      "model": "openai/gpt-5.4-mini"
+    },
+    {
+      "label": "GPT-4o mini (OpenRouter)",
+      "provider": "openrouter",
+      "model": "openai/gpt-4o-mini"
+    },
+    {
+      "label": "Gemini 2.5 Flash (OpenRouter)",
+      "provider": "openrouter",
+      "model": "google/gemini-2.5-flash"
+    },
+    {
+      "label": "Llama 3.3 70B (OpenRouter)",
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.3-70b-instruct"
+    }
+  ]
+}

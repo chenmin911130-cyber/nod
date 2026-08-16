@@ -1,0 +1,41 @@
+# Nod Windows 安装包配置 (electron-builder)
+# 用法: 在 desktop/ 下  npx electron-builder --win
+appId: com.nod.app
+productName: Nod
+copyright: Copyright © 2026 Nod author
+
+asar: true
+compression: normal
+
+directories:
+  output: release
+
+files:
+  - dist-electron
+  - dist
+  - assets
+
+extraResources:
+  - from: ../dist/nod-engine
+    to: engine
+    filter:
+      - "**/*"
+
+win:
+  icon: assets/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: Nod
+
+# 注意:
+# - config.json / .env 绝不打包 (extraResources 只放引擎 exe)
+# - 首次运行由引擎生成默认 config.json
+# - PyQt5 已从引擎打包排除 (GPL), 旧 UI 路径不可用属预期
