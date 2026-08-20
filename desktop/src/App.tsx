@@ -1,3 +1,7 @@
+// Copyright (c) 2026 Min Chen (chenmin911130-cyber). All rights reserved.
+// Unauthorized copying, modification, redistribution, or submission of this
+// file (including as academic coursework) via any medium is strictly prohibited.
+
 import { useCallback, useEffect, useReducer, useRef } from 'react'
 import type { AppConfig, AppState, AudioSource, EngineEvent, Lang, ViewMode } from './types'
 import TitleBar from './components/TitleBar'

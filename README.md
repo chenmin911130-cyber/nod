@@ -2,6 +2,8 @@
 
 > Real-time AI interview copilot · 听题 → 转写 → 生成答案 → 透明置顶窗流式显示
 
+**Copyright (c) 2026 Min Chen (`chenmin911130-cyber`). All rights reserved.**  本仓库不是开源软件。未经书面授权，禁止复制、修改、再分发、商用，也禁止将本代码作为学校作业 / 毕业项目提交。详见 [LICENSE](LICENSE) 与 [AUTHORSHIP.md](AUTHORSHIP.md)。
+
 Nod 是一款桌面 AI 面试助手。开着它面试或练习时，它会自动听题、语音转写、调用大模型生成答案，并流式显示在一个半透明、始终置顶的小窗口里，供你边看边答。语音走 **AssemblyAI** 云端，回答走 **OpenRouter** 云端，**都用你自己的 key，不内置任何密钥**。
 
 ## ✨ 特点
@@ -68,6 +70,8 @@ Electron + React + TypeScript（前端）· Python 引擎 + PyInstaller 打包 �
 
 本软件仅供**学习与技术演示**。真实面试 / 考试中使用实时 AI 作答可能违反平台政策或学术诚信准则，风险自负。详见 [DISCLAIMER.md](DISCLAIMER.md)。
 
-## 📄 许可
+## 📄 版权与许可
 
-见 [LICENSE](LICENSE)。
+Copyright (c) 2026 Min Chen. All rights reserved.
+
+未经书面授权不得复制、修改、再分发或商用，也不得作为他人课业作业提交。详见 [LICENSE](LICENSE)、[NOTICE.md](NOTICE.md)、[AUTHORSHIP.md](AUTHORSHIP.md)。

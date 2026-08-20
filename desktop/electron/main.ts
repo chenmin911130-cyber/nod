@@ -1,3 +1,7 @@
+// Copyright (c) 2026 Min Chen (chenmin911130-cyber). All rights reserved.
+// Unauthorized copying, modification, redistribution, or submission of this
+// file (including as academic coursework) via any medium is strictly prohibited.
+
 import { app, BrowserWindow, ipcMain, globalShortcut, clipboard, screen, dialog, shell } from 'electron'
 import * as path from 'path'
 import * as fs from 'fs'

@@ -1,3 +1,7 @@
+// Copyright (c) 2026 Min Chen (chenmin911130-cyber). All rights reserved.
+// Unauthorized copying, modification, redistribution, or submission of this
+// file (including as academic coursework) via any medium is strictly prohibited.
+
 import { contextBridge, ipcRenderer } from 'electron'
 
 // 只暴露白名单 API。API key 永远不经过这里, 渲染进程读不到 Hermes .env。
